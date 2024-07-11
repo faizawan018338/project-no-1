@@ -1,0 +1,505 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	color: black;
+	list-style: none;
+	cursor: pointer;
+}
+
+.logo {
+	height: 8vh;
+	width: 20%;
+	padding: 0;
+	padding-top: 8px;
+	width: 60px;
+}
+
+/* General styling for the navbar */
+.navbar {
+    background-color: #986D4C; /* Custom background color */
+    color: aliceblue; /* Custom text color */
+}
+
+/* Navbar brand styling */
+.navbar-brand {
+    color: rgb(0, 0, 0);
+    font-family: 'Tilt Warp', cursive;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+/* Navbar links styling */
+.navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+    background-color: #fff; /* Background color for the dropdown */
+    z-index: 1050; /* Ensure dropdown appears above other content */
+}
+.dropdown-menu ul li {
+	margin: 3;
+}
+
+.dropdown-menu ul{
+    display: block;
+    margin: 10px;
+    padding: 20px;
+    background-color:black;
+}
+.dropdown-menu ul li{
+    width: 150px;
+    padding: 10px;
+	font-size: 40px;
+}
+
+.dropdown-item {
+    color: #000; /* Text color for dropdown items */
+}
+
+.dropdown-item:hover {
+    background-color: #986D4C; /* Hover background color */
+    color: #fff; /* Hover text color */
+}
+
+/* Disabled link styling */
+.nav-link.disabled {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* Search form styling */
+.form-control {
+    margin-right: 10px;
+}
+
+.btn-outline-success {
+    color: #fff;
+    background-color: #986D4C;
+    border-color: #986D4C;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #77523A;
+    border-color: #77523A;
+}
+
+/* Responsive behavior */
+@media (max-width: 992px) {
+    .navbar-toggler {
+        border-color: rgba(255, 255, 255, 0.1);
+    }
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+}
+
+.carousel {
+	height: auto;
+	width: 90%;
+	background-color: antiquewhite;
+    z-index: 1000;
+    /* border: 2px solid; */
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+
+h3 {
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 10px 0;
+	color: #986D4C;
+}
+/*Menu*/
+.menu {
+    text-align: center;
+    padding: 20px;
+}
+
+.menu h1 {
+    font-size: 24px;
+}
+
+.menu span {
+    color: #ff5733;
+}
+
+.menu_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu_card {
+    width: calc(25% - 20px);
+    margin: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.menu_image img {
+    width: 100%;
+    height: auto;
+}
+
+.menu_info {
+    text-align: left;
+}
+
+.menu_btn {
+    display: block;
+    background-color: #ff5733;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .menu_card {
+        width: calc(50% - 20px);
+    }
+}
+
+
+
+
+
+/* .card {
+	padding: 15px 10px;
+	border: white;
+	border-radius: 15px;
+	margin-top: 10px;
+	border-top-right-radius: 15px;
+	width: 100%;
+	border: white;
+} */
+
+
+.cardsf {
+	width: 10%;
+	margin-top: 10px;
+	/* border: 1px solid black; */
+	/* border: 5px solid #cccccc; */
+
+}
+.card img:hover {
+	transform: translateY(7px);
+	border: 1px solid rgb(red, green, blue) ;
+	
+}
+
+.card-deck {
+	margin: 0 auto;
+	color: black;
+}
+
+.card-title {
+	text-align: center;
+	color: black;
+	
+}
+.card-title a{
+	color: black;
+}
+
+.card-img-top {
+	border-radius: 15px;
+}
+
+.f6 {
+	height: 150px;
+}
+.container{
+    width: 99.9%;
+    height: auto;
+
+}
+h1{
+	margin-top: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card{
+    border: none;
+	margin-top: 40px;
+}
+.card img :hover{
+    transform: scale(1.1);
+    transition:0.5s ;
+}
+.mape{
+	width: 100%;
+	height: 100uh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+iframe{
+	width: 80%;
+	height: 500px;
+	/* filter: invert(100%); */
+}
+/*Review*/
+/* Default styles */
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+  }
+  
+  /* Responsive styles using media queries */
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    h1 span {
+      display: block;
+      font-size: 18px;
+    }
+  }
+  
+
+.review{
+    width: 100%;
+    height: auto;
+    padding: 70px 0;
+}
+
+.review h1{
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review h1 span{
+    margin-left: 15px;
+    /* color: #fac031; */
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.review h1 span::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    /* background: #fac031; */
+    position: relative;
+    bottom: 15px;
+    display: block;
+}
+
+.review .review_box{
+    width: 95%;
+    margin: 70px auto;
+    display: flex;
+}
+
+.review .review_box .review_card{
+    width: 350px;
+    height: 535px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    border-radius: 6px;
+    padding: 8px 20px;
+    margin: 0 8px;
+}
+
+.review .review_box .review_card .review_profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: 0.3s;
+}
+
+.review .review_box .review_card:hover .review_profile{
+    transform: translateY(-10px);
+}
+
+.review .review_box .review_card .review_profile img{
+    /* width: 230px; */
+    height: 140px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 5px solid #cccccc;
+}
+
+.review .review_box .review_card .review_text{
+    text-align: center;
+}
+
+.review .review_box .review_card .review_text .name{
+    color: #000;
+    transition: 0.3s;
+}
+
+.review .review_box .review_card:hover .review_text .name{
+    transform: translate(-20px);
+}
+
+.review .review_box .review_card .review_text .review_icon{
+    color: #fac031;
+    transition: 0.3s;
+}
+
+.review .review_box .review_card:hover .review_text .review_icon{
+    transform: translateY(-30px);
+}
+
+.review .review_box .review_card .review_text .review_social i{
+    margin: 5px 1px;
+    font-size: 15px;
+    opacity: 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.review .review_box .review_card:hover .review_text .review_social i{
+    opacity: 1;
+    transform: translateY(-8px);
+}
+
+.review .review_box .review_card .review_text p{
+    text-align: center;
+    line-height: 22px;
+    transition: 0.3s;
+}
+
+.review .review_box .review_card:hover .review_text p{
+    margin-top: 5px;
+}
+/* Default styles */
+
+.review_box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .review_card {
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    max-width: 300px; /* Adjust as needed */
+    box-sizing: border-box;
+  }
+  
+  .review_profile img {
+    width: 100%;
+    max-width: 100px; /* Adjust as needed */
+    height: auto;
+  }
+  
+  .review_text {
+    text-align: justify;
+  }
+  
+  /* Responsive styles using media queries */
+  
+  @media (max-width: 768px) {
+    .review_box {
+      flex-direction: column;
+    }
+  
+    .review_card {
+      max-width: 100%; /* Adjust as needed */
+    }
+  }
+  
+  
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family:"Quicksand", sans-serif;
+    background: white;
+    width: 100%;
+    background-size: cover;
+    background-size: 100%;
+    /* color: darkorange; */
+}
+h2{
+    color: black;
+}
+section{
+    /* min-height: 100vh; */
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    font-size: 3rem;
+    margin: 2rem 0rem;
+}
+.faq{
+    /* max-width: 700px; */
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+.question{
+    display:  inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media only screen and (min-width: 200px) and (max-width: 767px){
+    .menu .menu_box{
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+/* Add your existing styles here */
+
+@media (max-width: 767px) {
+    /* Styles for screens less than 768px wide */
+
+    .navbar-collapse {
+        background-color: #986D4C; /* Adjust background color for mobile */
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem; /* Adjust font size for mobile */
+    }
+
+    .dropdown-menu {
+        background-color: #986D4C; /* Adjust background color for mobile */
+    }
+
+    /* Add more responsive styles as needed */
+}
+
+@media (max-width: 576px) {
+    /* Styles for screens less than 576px wide */
+
+    .navbar-brand {
+        font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+
+    /* Add more responsive styles as needed */
+}
+
+
